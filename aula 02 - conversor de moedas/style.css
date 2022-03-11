@@ -1,17 +1,23 @@
-body {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
   min-height: 400px;
-  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png");
+  background-image: url("https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2019/09/julius-rock-o-personagem-mais-amado-de-todo-mundo-odeia-o-chris-12.jpg");
   background-color: #000000;
-  background-size: 100vh;
-  background-position: center bottom;
+  background-size: cover;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 
 .container {
   text-align: center;
   padding: 20px;
-  height: 100vh;
+  height: 90vh;
 }
 
 .page-title {
@@ -28,6 +34,21 @@ body {
   width: 200px;
 }
 
+.caixa{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
 .alura-logo {
   width: 40px;
   position: absolute;
@@ -39,20 +60,35 @@ input {
   margin: 12px;
   padding: 6px;
   border-radius: 5px;
-}
-
-label {
-  color: white;
+  text-align: center;
+  border: none;
+  outline: 0;
 }
 
 button {
-  margin-top: 12px;
-  padding: 4px 8px;
-  border-radius: 10px;
-  background: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+  background-color: #eecc37;
+  color: #fff;
+  box-shadow: 0 5px 0 #b39204;
+}
+button:hover {
+  background-color: #ebb44f;
+  color: #fff;
+  box-shadow: 0 5px 0 #c0951e;
+}
+button:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
 }
 
 h2 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
 }

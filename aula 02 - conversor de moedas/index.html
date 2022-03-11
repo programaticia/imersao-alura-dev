@@ -10,15 +10,21 @@
 <body>
     <div class="container">
         <h1 class="page-title">Conversor de moedas</h1>
-        <p class="page-subtitle">Descubra os valores de dólar U$ para real R$</p>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
-        <label for="moeda">Insira o valor</label><br>
-        <input type="number" id="valor" size="2" /><br>
-        <button type="submit" onclick="Converter()">Converter</button>
-        <h2 id="valorConvertido"></h2>
+        <br>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        <div class="caixa">
+            <h2><label for="moeda">Descubra valores de dólar U$ em real R$</label></h2>
+            <input placeholder="Insira o valor" type="number" id="valor" size="2" />
+            <br><br>
+            <button type="submit" onclick="Converter()">Converter</button> 
+            <br><br>
+
+            <h2 id="valorConvertido"> </h2>
+        </div>
     </div>
-    <a href="https://alura.com.br/" target="_blank"></a>
-    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-    <script src="script.js"></script>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <script src="app.js"></script>
 </body>
 </html>

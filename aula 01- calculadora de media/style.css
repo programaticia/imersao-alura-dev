@@ -75,10 +75,6 @@ button:active {
   box-shadow: none;
 }
 
-.secondStep, .finalStep{
-    display: none;
-}
-
 .page-title {
   color: #ffffff;
   margin: 0 0 5px;
