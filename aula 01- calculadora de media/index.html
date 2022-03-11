@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Imersão Dev Alura - Aula 01</title>
+    <script src="app.js" defer></script>
+    <title>Imersão Dev Alura - Aula 01Document</title>
 </head>
+
 <body>
     <div class="container">
-        <h1 class="page-title">
-            Calculadora de média</h1>
-        <p class="page-subtitle">
-            Descubra qual a sua média de nota de todas as provas!
-        </p>
+        <h1 class="page-title">Calculadora de média</h1>
+        <h2 class="page-subtitle">Descubra qual a sua média de nota de todas as provas!</h2>
+        <br>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
             class="page-logo" alt="">
+        <div class="form">
+            <input required placeholder="Nota Primeiro Bimestre" type="number" id="primeiroBimestre">
+            <input required placeholder="Nota Segundo Bimestre" type="number" id="segundoBimestre">
+            <input required placeholder="Nota Terceiro Bimestre" type="number" id="terceiroBimestre">
+            <input required placeholder="Nota Quarto Bimestre" type="number" id="quartoBimestre">
+            <br><br>
+            <button onclick="media()">Resultado</button>
+            <br> <br>
+
+            <h3 id="resultado"> </h3>
+        </div>
     </div>
     <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
     </a>
+
 </body>
+
 </html>

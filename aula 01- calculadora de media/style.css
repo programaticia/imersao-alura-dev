@@ -1,10 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-  font-family: 'Roboto Mono',monospace;
-  min-height: 400px;
-  background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
+  width: 100%;
+  min-width: 100hv;
+  background-image: url("https://vigilianerd.com.br/wp-content/uploads/2020/10/bob-esponja-o-incrivel-resgate.jpg");
   background-color: #000032;
-  background-size: 80vh;
-  background-position: center bottom;
+  background-size: cover;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 
@@ -14,13 +21,71 @@ body {
   height: 100vh;
 }
 
+h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 1em;
+  display: fletbox;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: text;
+  outline: 0;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+  cursor: pointer;
+  background-color: #8637ee;
+  color: #fff;
+  box-shadow: 0 5px 0 #55048b;
+}
+button:hover {
+  background-color: #55048b;
+  color: #fff;
+  box-shadow: 0 5px 0 #2d014b;
+}
+button:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+.secondStep, .finalStep{
+    display: none;
+}
+
 .page-title {
-  color:#ffffff;
+  color: #ffffff;
   margin: 0 0 5px;
 }
 
 .page-subtitle {
-  color:#ffffff;
+  color: #ffffff;
   margin-top: 5px;
 }
 
