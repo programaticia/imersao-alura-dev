@@ -45,7 +45,8 @@ h3{
 
 input {
   text-align: center;
-  border: none;
+  width: 150px;
+  margin: 0 auto;
   border-radius: 5px;
   padding: 7px;
   cursor: text;
