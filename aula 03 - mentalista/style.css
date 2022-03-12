@@ -1,5 +1,5 @@
 body {
-  font-family: Arial;
+  font-family: "Roboto Mono", monospace;
   min-height: 600px;
   background-image: url("https://wallpapercave.com/wp/wp2185971.jpg");
   background-color: #000000;
@@ -15,12 +15,12 @@ body {
 }
 
 .caixa{
-    position: absolute;
+  position: absolute;
   top: 75%;
   left: 50%;
   transform: translate(-50%,-50%);
   width: 40%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 12px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -56,9 +56,13 @@ body {
 }
 
 input {
+  font-family: "Roboto Mono", monospace;
   margin: 4px;
   padding: 6px;
   border-radius: 5px;
+  text-align: center;
+  border: none;
+  outline: none;
 }
 
 button {
