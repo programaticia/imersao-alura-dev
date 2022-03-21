@@ -106,18 +106,7 @@ var carta10 = {
   }
 };
 
-var cartas = [
-  carta1,
-  carta2,
-  carta3,
-  carta4,
-  carta5,
-  carta6,
-  carta7,
-  carta8,
-  carta9,
-  carta10
-];
+var cartas = [carta1, carta2, carta3, carta4, carta5, carta6, carta7, carta8, carta9, carta10];
 var cartaMaquina;
 var cartaJogador;
 
@@ -205,13 +194,7 @@ function exibirCartaMaquina() {
   var opcoesTexto = "";
   for (var atributo in cartaMaquina.atributos) {
     opcoesTexto +=
-      "<p type='text' name='atributo' value='" +
-      atributo +
-      "'>" +
-      atributo +
-      " " +
-      cartaMaquina.atributos[atributo] +
-      "</p>";
+      "<p type='text' name='atributo' value='" + atributo + "'>" + atributo + " " + cartaMaquina.atributos[atributo] + "</p>";
   }
   var nome = `<p class="carta-subtitle">${cartaMaquina.nome}</p>`;
 
